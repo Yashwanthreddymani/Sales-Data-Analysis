@@ -1,4 +1,24 @@
 *.csv
 __pycache__/
 .ipynb_checkpoints/
-*.pbix
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# Dataset files (optional)
+*.csv
+*.xlsx
+
+# Power BI temporary files
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
