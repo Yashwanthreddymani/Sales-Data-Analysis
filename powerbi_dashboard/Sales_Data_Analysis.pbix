@@ -1,9 +1,1 @@
-Sales-Data-Analysis
-│── README.md
-│── requirements.txt
-│── .gitignore
-│── .gitattributes
-│── setup_and_run.py
-│
-└── powerbi_dashboard/
-    └── Sales_Data_Analysis.pbix
+Place your Power BI file here
