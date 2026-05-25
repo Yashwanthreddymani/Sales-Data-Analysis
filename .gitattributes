@@ -1,1 +1,9 @@
-Sales_Analysis.xlsx filter=lfs diff=lfs merge=lfs -text
+# Track large dataset files with Git LFS
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+
+# Power BI file handling
+*.pbix binary
+
+# Notebook handling
+*.ipynb text eol=lf
